@@ -133,13 +133,7 @@ Voici la vu globale dans cette capture :
 - Réseaux externes
 - Organisation de Réseaux de Datacenters virtuels
 - Réseaux vApp
-
-![Réseau Overview](images/vcd-networking-overview.png)){.thumbnail}
-
-#### vCloud Director supporte trois types de réseaux :
-- Réseaux externes
-- Organisation de Réseaux de Datacenters virtuels
-- Réseaux vApp
+  
 
 ### Content Hub
 

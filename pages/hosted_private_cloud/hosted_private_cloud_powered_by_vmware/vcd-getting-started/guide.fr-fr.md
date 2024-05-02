@@ -218,7 +218,7 @@ Dans cette section, accédez aux plugins essentiels : Veeam pour la protection d
 
 ### Loupe
 
-![Loupe Overview](images/vcd-research-overview.png){.thumbnail}
+![Loupe Overview](images/vcd_overview_loupe.gif){.thumbnail}
 
 Utilisez cette fonction pour rechercher des composants au sein de votre organisation. Les points verticaux vous offrent la possibilité de vous déconnecter, de modifier votre mot de passe et de gérer vos préférences utilisateur.
 

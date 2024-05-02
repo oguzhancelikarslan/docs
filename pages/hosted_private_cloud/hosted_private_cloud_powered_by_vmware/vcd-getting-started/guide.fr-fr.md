@@ -50,7 +50,7 @@ VMware vCloud Director (VCD) par OVH Cloud permet d'avoir un service reuni au se
 
 ### Datacenters
 
-![Datacenters Overview](images/vcd-create-VM.gif){.thumbnail}
+![Datacenters Overview](images/vcd-datacenters-overview.png){.thumbnail}
 
 Retrouvez dans cette sections tous vos datacenters virtuels (**vDC**) commandés avec différents emplacements de datacenters, un bref suivi de votre consommation de ressources et du nombre de vApps/VM en cours d’exécution.
 Dans cette section vous retrouvez un bandeau sur votre gauche, le même que vous retrouvez quand vous cliquez sur une de vos : `Virtual Applications | Virtual Machines | Container Applications`{.action}. depuis la section **"Application"** :
@@ -135,10 +135,7 @@ Voici la vu globale dans cette capture :
 - Organisation de Réseaux de Datacenters virtuels
 - Réseaux vApp
 
-
-Voici une capture animé (gif), des réglages réseau géré depuis la section "Data Centers" pour une `Edge Gateway`:
-
-![Réseau Overview](images/vcd-edge-GW.gif){.thumbnail}
+![Réseau Overview](images/vcd-networking-overview.png)){.thumbnail}
 
 #### vCloud Director supporte trois types de réseaux :
 - Réseaux externes
@@ -149,7 +146,7 @@ Voici une capture animé (gif), des réglages réseau géré depuis la section "
 
 Cette section vous permet d'administrer vos catalogues : créez, supprimez ou téléchargez des fichiers ISO, des modèles OVA, ou bien utilisez tout simplement les modèles préconfigurés disponibles dans le catalogue OVHcloud.
 
-![Content Hub Overview](images/vcd-catalog-ISO.gif){.thumbnail}
+![Content Hub Overview](images/vcd-content-overview.png){.thumbnail}
 
 Cliquez pour déroulez le contenue de votre section "Content Hub" :
 <details>

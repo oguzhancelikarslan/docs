@@ -50,7 +50,7 @@ VMware vCloud Director (VCD) par OVH Cloud permet d'avoir un service reuni au se
 
 ### Datacenters
 
-![Datacenters Overview](images/vcd-datacenters-overview.png){.thumbnail}
+![Datacenters Overview](images/vcd_overview_datacenter.gif){.thumbnail}
 
 Retrouvez dans cette sections tous vos datacenters virtuels (**vDC**) commandés avec différents emplacements de datacenters, un bref suivi de votre consommation de ressources et du nombre de vApps/VM en cours d’exécution.
 Dans cette section vous retrouvez un bandeau sur votre gauche, le même que vous retrouvez quand vous cliquez sur une de vos : `Virtual Applications | Virtual Machines | Container Applications`{.action}. depuis la section **"Application"** :
@@ -93,7 +93,7 @@ Il est par exemple possible de copier une vApp d'un Data Center à un autre, pou
 
 Voici la vu globale de la section "Application" dans cette capture : 
 
-![Applications Overview](images/vcd-Vapp-view.png){.thumbnail}
+![Applications Overview](images/vcd_overview_application.gif){.thumbnail}
 
 Voici les 3 éléments principaux de la section Application, vous pouvez aussi voir que quand vous cliquez sur l'une de vos vApp vous serez redirigé dans la section Data Center :
 <details>
@@ -104,9 +104,6 @@ Voici les 3 éléments principaux de la section Application, vous pouvez aussi v
 - `Container Applications`
 </details>
 
-
-![Applications Overview](images/vcd-vapp.png){.thumbnail}
-
 ### Networking
 
 La mise en réseau de Cloud Director permet au fournisseur et au client de l'organisation de créer et de consommer des ressources de mise en réseau à partir d'un environnement vSphere ou NSX. 
@@ -116,7 +113,7 @@ Vous pouvez voir après cette capture que les fonctionnalitées les plus avancé
 
 Voici la vu globale dans cette capture :
 
-![Réseau Overview](images/vcd-network.png){.thumbnail}
+![Réseau Overview](images/vcd_overview_networking.gif){.thumbnail}
 
 <details>
 <summary>Dans cette section, vous retrouvez tous les composants réseau de vos environnements VCD :</summary>
@@ -146,7 +143,7 @@ Voici la vu globale dans cette capture :
 
 Cette section vous permet d'administrer vos catalogues : créez, supprimez ou téléchargez des fichiers ISO, des modèles OVA, ou bien utilisez tout simplement les modèles préconfigurés disponibles dans le catalogue OVHcloud.
 
-![Content Hub Overview](images/vcd-content-overview.png){.thumbnail}
+![Content Hub Overview](images/vcd_overview_content-hub.gif){.thumbnail}
 
 Cliquez pour déroulez le contenue de votre section "Content Hub" :
 <details>
@@ -173,7 +170,7 @@ Cliquez pour déroulez le contenue de votre section "Libraries" :
 
 ### Administration
 
-![Administration Overview](images/vcd-administration-overview.png){.thumbnail}
+![Administration Overview](images/vcd_overview_administration.gif){.thumbnail}
 
 Vous avez la possibilité de gérer ici les utilisateurs de votre organisation, de créer des rôles et des groupes et de configurer un fournisseur d'identification (OIDC/SAML). Vous pouvez également paramétrer des stratégies d'alertes et d'expiration par e-mail pour vos applications.
 
@@ -213,13 +210,13 @@ Cliquez pour déroulez le contenue de votre section "Administration" :
 
 ### Monitoring
 
-![Monitoring Overview](images/vcd-monitoring-overview.png){.thumbnail}
+![Monitoring Overview](images/vcd_overview_monitor.gif){.thumbnail}
 
 Dans cette section, vous pouvez accéder à l'historique complet de toutes les tâches et événements survenus dans votre organisation. Vous pouvez utiliser les filtres pour retrouver plus facilement les tâches/événements souhaités.
 
 ### More
 
-![More options Overview](images/vcd-more-overview.png){.thumbnail}
+![More options Overview](images/vcd_overview_more.gif){.thumbnail}
 
 Dans cette section, accédez aux plugins essentiels : Veeam pour la protection des données afin de sauvegarder votre infrastructure, et le *Operations Manager* pour obtenir un détail exhaustif de votre consommation.
 

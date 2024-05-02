@@ -93,7 +93,7 @@ Il est par exemple possible de copier une vApp d'un Data Center à un autre, pou
 
 Voici la vu globale de la section "Application" dans cette capture : 
 
-![Applications Overview](images/vcd_overview_application.gif){.thumbnail}
+![vApp Overview](images/vcd-Vapp-view.png){.thumbnail}
 
 Voici les 3 éléments principaux de la section Application, vous pouvez aussi voir que quand vous cliquez sur l'une de vos vApp vous serez redirigé dans la section Data Center :
 <details>
@@ -103,6 +103,8 @@ Voici les 3 éléments principaux de la section Application, vous pouvez aussi v
 - `Virtual Machines`
 - `Container Applications`
 </details>
+
+![Applications Overview animé](images/vcd_overview_application.gif){.thumbnail}
 
 ### Networking
 

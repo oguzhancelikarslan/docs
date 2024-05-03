@@ -64,9 +64,9 @@ Pour accéder au Portail Veeam Self-Service Backup depuis Cloud Director :
 
 La fenêtre du Plugin Veeam VCD s'ouvrira avec un bandeau gris foncé (ici dans la 2eme capture)
 
-![VCD access to Veeam Backup](images/vcd_veeam_backup.png){.thumbnail .h-600 .w-400}
+![VCD access to Veeam Backup](images/vcd_veeam_backup.png){.thumbnail}
 
-![VCD access to Veeam Backup](images/vcd_veeam_backup_console.png){.thumbnail .h-600 .w-400}
+![VCD access to Veeam Backup](images/vcd_veeam_backup_repo.png){.thumbnail}
 
 ### Étape 2 - Sauvegarder avec le Pluging Veeam VCD
 
@@ -94,7 +94,7 @@ Dans la console Veeam VMware Cloud Director cliquez sur -> `JOBS -> CREATE`, une
 
 ![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation.png){.thumbnail .h-600 .w-400}
 
-![VCD Backup Job Veeam creation](images/vcd_veeam_backup_job_creation_2.png){.thumbnail .h-600 .w-400}
+![VCD Backup Job Veeam creation](images/vcd_veeam_backup_jobs.png){.thumbnail .h-600 .w-400}
 
 Une fois les éléments définis (Job name, description, retention), cliquez sur `NEXT`
 

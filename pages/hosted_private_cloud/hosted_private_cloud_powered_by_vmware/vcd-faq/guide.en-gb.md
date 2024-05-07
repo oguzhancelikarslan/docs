@@ -67,6 +67,10 @@ At the service launch, no specific certification will be applicable to the VMwar
 
 However, supporting HDS, ISO27001, SOC2 or PCI-DSS certifications are clearly our roadmap objectives.
 
+### Can I choose with VCD the "Thin or Thick disk" type when I create a new virtual machine or disk ?
+
+No, with VMware Cloud Director, each disk consumes storage in a Virtual Datacentre (VDC) organization. There is no associated "Thin or Thick" setting for a tenant.
+
 ## Go further
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.

@@ -20,7 +20,7 @@ Ce guide vous détaille comment créer votre première machine virtuelle (VM) de
 
 ### Création d'une machine virtuelle
 
-Pour créer votre machine virtuelle, accédez d'abord au datacenter où vous prévoyez de la déployer. Ensuite, naviguez vers la section `Compute`{.action} > `Virtual Machine`{.action} > `NEW VM`{.action}.
+Pour créer votre machine virtuelle, accédez d'abord au datacenter où vous prévoyez de la déployer. Ensuite, naviguez vers la section `Calculer`{.action} > `Machines Virtuelles`{.action} > `Nouvelle VM`{.action}.
 
 ![dashboard vcd](images/vcd-dashboard-vcd.png){.thumbnail}
 
@@ -29,19 +29,19 @@ Pour créer votre machine virtuelle, accédez d'abord au datacenter où vous pr�
 **Cliquez sur les onglets ci-dessous.**
 
 > [!tabs]
-> **From Template**
->> Qu’est-ce qu’un **template** ? Un template est une machine virtuelle préconfigurée qui est utilisée pour en créer de nouvelles. Les quantités de mémoire, de vCPU, de cartes réseau (NIC) et d'espace de stockage sont déjà définis et ne peuvent pas être modifiés pendant le déploiement. Ne vous inquiétez pas, vous pourrez le modifier une fois le processus de déploiement terminé. Il s'agit d'un déploiement OVA basique.
+> **A partir du modèle**
+>> Qu’est-ce qu’un **Modèle** (Template) ? Un modèle est une machine virtuelle préconfigurée qui est utilisée pour en créer de nouvelles. Les quantités de mémoire, de vCPU, de cartes réseau (NIC) et d'espace de stockage sont déjà définis et ne peuvent pas être modifiés pendant le déploiement. Ne vous inquiétez pas, vous pourrez le modifier une fois le processus de déploiement terminé. Il s'agit d'un déploiement OVA basique.
 >> Retournons à la création de notre machine virtuelle. Remplissez les champs requis, puis assurez-vous de sélectionner l'option `Type` sur `From Template`. Vous verrez alors un menu déroulant des différents modèles disponibles.<br><br>
 >> ![Menu Vm Creation](images/vcd-creation-template-vm.png){.thumbnail}<br>
 >> Les templates disponibles ici font partie du catalogue OVHcloud pré-provisionné et peuvent être utilisés selon vos besoins. Nous fournissons de nombreuses et différentes distributions Linux avec et sans applications déjà installées. Nous avons également importé quelques modèles du [catalogue Bitnami](https://bitnami.com/stacks/virtual-machine).<br>
->> Dans la section `Propriétés personnalisées`, vous avez la possibilité de personnaliser différentes propriétés de votre machine virtuelle, telles qu'un utilisateur spécifique, le nom de domaine, son adresse IP et bien d'autres propriéyés.
-> **From scratch**
->> Comme pour la création à partir d'un template, complétez les champs requis. Cependant, pour l'option `Type`, sélectionnez `New`.
->> Dans la section `Boot image`, vous retrouverez des ISO préconfigurés qui vous sont fournis.<br><br>
+>> Dans la section `Propriétés personnalisées`, vous avez la possibilité de personnaliser différentes propriétés de votre machine virtuelle, telles qu'un utilisateur spécifique, le nom de domaine, son adresse IP et bien d'autres propriétés.
+> **Nouveau**
+>> Comme pour la création à partir d'un modèle (template), complétez les champs requis. Cependant, pour l'option `Type`, sélectionnez `Nouveau`.
+>> Dans la section `Charger image`, vous retrouverez des ISO préconfigurés qui vous sont fournis.<br><br>
 >> ![Menu Vm Creation](images/vcd-creation-template-vm.png){.thumbnail}<br>
->> La section `Compute` vous permet de configurer la quantité de vCPU et de mémoire souhaitée pour cette machine virtuelle.
-> **From Clone**
->> Qu’est-ce qu’un **Clone** ? Le Clone est une copie d'une machine virtuelle. Dans le cas d'une VM, les réglages disque associés à la machine utilisée. Il faut lancer la copie depuis la VM, cliquez sur `Action` -> `Copy` dans la section "Data Center"
+>> La section `Calculer` vous permet de configurer la quantité de vCPU et de mémoire souhaitée pour cette machine virtuelle.
+> **Depuis une Copie**
+>> Qu’est-ce qu’une **Copie** (Clone) ? Le Clone est une copie d'une machine virtuelle. Dans le cas d'une VM, les réglages disque associés à la machine utilisée. Il faut lancer la copie depuis la VM, cliquez sur `Action` -> `Copier` dans la section "Centre de données"
 >> Attention une vApp doit toujours être ajoutée sur VDC. Suivez le menu déroulant des différents réglages disponibles comme pour une creation de VM.<br><br>
 >> ![Menu Vm Creation](images/vcd-vm-clone.png){.thumbnail}<br>
 
@@ -51,17 +51,17 @@ En ce qui concerne la sélection du réseau, vous trouverez tous les réseaux di
 
 ![Creation VM Storage](images/vcd-creation-vm-network.png){.thumbnail}
 
-La liste déroulante « Mode IP » vous propose différents modes d'attribution d'IP :
+La liste déroulante **« Mode IP »** vous propose différents modes d'attribution d'IP :
 
-- DHCP - Utilisez le serveur DHCP (votre VM doit gérer le DHCP même si vous le sélectionnez).
-- Pool IP : sélectionnez une IP dans le pool IP du réseau.
-- IP Manuelle - Vous devez définir l'IP manuellement.
+- **DHCP - Utilisez le serveur DHCP (votre VM doit gérer le DHCP même si vous le sélectionnez).**
+- **Statique (Pools IP) : Sélectionnez une IP dans le pool IP du réseau.**
+- **Statique (Manuel) : Vous devez définir l'IP manuellement.**
 
 >[ !warning]
-> Attention, ce mode IP vous permet uniquement d'organiser votre inventaire VCD mais vous devrez tout de même configurer l'IP (ou DHCP) à l'intérieur même de la VM.
+> Attention, ce mode IP vous permet uniquement d'organiser votre inventaire VCD mais vous devrez tout de même configurer l'adresse IP statique (ou DHCP) à l'intérieur même de la VM.
 >
 
-En ce qui concerne la section `Storage Policies`{.action}, vous ne trouverez qu'une seule possibilité : la politique de stockage par défaut de vSAN.
+En ce qui concerne la section `Stratégies de stockage`{.action}, vous ne trouverez qu'une seule possibilité : la politique de stockage par défaut de vSAN.
 
 Vous pouvez également ajouter des disques virtuels dans cette section si vous en avez besoin de plusieurs.
 

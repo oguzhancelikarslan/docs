@@ -36,50 +36,50 @@ VMware vCloud Director (VCD) par OVH Cloud permet d'avoir un service reuni au se
 <details>
 <summary>Les différentes sections disponibles :</summary>
 
-1. **Data Centers**
+1. **Centre de données**
 2. **Applications**
-3. **Networking**
-4. **Content Hub**
+3. **Mise en réseau**
+4. **Hub de contenu**
 5. **Administration**
-6. **Monitor**
-7. **More**
+6. **Surveiller**
+7. **Plus**
 8. **Loupe**
 9. **Tâches effectuées**
 10. **Ressources utilisées**
 </details>
 
-### Datacenters
+### Centres de données
 
 ![Datacenters Overview](images/vcd_overview_datacenter.gif){.thumbnail}
 
-Retrouvez dans cette sections tous vos datacenters virtuels (**vDC**) commandés avec différents emplacements de datacenters, un bref suivi de votre consommation de ressources et du nombre de vApps/VM en cours d’exécution.
-Dans cette section vous retrouvez un bandeau sur votre gauche, le même que vous retrouvez quand vous cliquez sur une de vos : `Virtual Applications | Virtual Machines | Container Applications`{.action}. depuis la section **"Application"** :
+Retrouvez dans cette sections tous vos centre de données virtuels (**vDC**) commandés avec différents emplacements de datacenters, un bref suivi de votre consommation de ressources et du nombre de vApps/VM en cours d’exécution.
+Dans cette section vous retrouvez un bandeau sur votre gauche, le même que quand vous cliquez sur une de vos : `Applications virtuelles | Machines virtuelles | Applications de conteneur `{.action}. depuis la section **"Application"** :
 
 <details>
 <summary>Cliquez pour voir les sections :</summary>
 
-<summary>Compute :</summary>
+<summary>Calculer :</summary>
 
-- `vApps`{.action}.
-- `Virtual Machines`{.action}.
-- `Affinity Rules`{.action}.
+- `vApp`{.action}.
+- `Machines virtuelles`{.action}.
+- `Règles d'affinité`{.action}.
 
-<summary>Networking :</summary>
+<summary>Mise en réseaux :</summary>
 
-- `Networks`{.action}.
-- `Edges`{.action}.
+- `Réseaux`{.action}.
+- `Dispositifs Edge`{.action}.
 
-<summary>Storage :</summary>
+<summary>Stockage :</summary>
 
-- `Named disks`{.action}.
-- `Storage Policies`{.action}.
+- `Disques nommés`{.action}.
+- `Stratégies de stockage`{.action}.
 
-<summary>Settings :</summary>
+<summary>Paramètres :</summary>
 
-- `General`{.action}.
-- `Metadata`{.action}.
-- `Sharing`{.action}.
-- `Kubernetes Policies`{.action}.
+- `Génèral`{.action}.
+- `Métadonnées`{.action}.
+- `Partage`{.action}.
+- `Stratégies Kubernetes`{.action}.
 </details>
 
 ### Applications
@@ -87,9 +87,9 @@ Dans cette section vous retrouvez un bandeau sur votre gauche, le même que vous
 Cette section vous permet de profiter d'une vision d'ensemble complète de tous vos vApps et machines virtuelles sur vos centres de données virtuels (vcd) : créez, accédez et supprimez des vApps ou des machines virtuelles en toute simplicité.
 
 L'utilisation des vApps est une des fonctionnalitées unique de Vcloud Director (VCD). Il permet de créer de grouper un ensemble de machines virtuelles, de conteneurs au sein de la même Virtual Application (vApp). Mais aussi aller granulairement créer des rêgles d'affinités/anti-affinités au sein de ces vApp (réseau, firewall, templating etc).
-Nous retrouvons comme réglages pour ces vApp, les fonctionnalitées classiques de Vsphere/NSX pour réseau et le stockage que l'on peut appliquer à cet console Web centralisé (orchestrator).
+Nous retrouvons comme réglages pour ces vApp, les memes fonctionnalitées de Vsphere/NSX pour la partie réseau et le stockage que l'on peut appliquer à cette console Web centralisée (un orchestrateur).
 
-Il est par exemple possible de copier une vApp d'un Data Center à un autre, pour une migration d'application d'un site à un autre.
+Il est par exemple possible de copier une vApp d'un Data Center à un autre et aussi pour une migration d'application d'un site à un autre.
 
 Voici la vu globale de la section "Application" dans cette capture : 
 
@@ -99,14 +99,14 @@ Voici les 3 éléments principaux de la section Application, vous pouvez aussi v
 <details>
 <summary>Application</summary>
 
-- `Virtual Applications`
-- `Virtual Machines`
-- `Container Applications`
+- `Applications virtuelles`
+- `Machines virtuelles`
+- `Applications de conteneur`
 </details>
 
 ![Applications Overview animé](images/vcd_overview_application.gif){.thumbnail}
 
-### Networking
+### Réseau
 
 La mise en réseau de Cloud Director permet au fournisseur et au client de l'organisation de créer et de consommer des ressources de mise en réseau à partir d'un environnement vSphere ou NSX. 
 Par conséquent, les clients peuvent créer des segments réseaux et configurer des services finement avec ou sans DHCP, effectuer du pare-feu NAT mais aussi utiliser les intégrations de load-balancing par exemple.
@@ -121,11 +121,11 @@ Voici la vu globale dans cette capture :
 <summary>Dans cette section, vous retrouvez tous les composants réseau de vos environnements VCD :</summary>
 
 - `Réseaux`
-- `Edge Gateways`
-- `Provider Gateways`
-- `IP Spaces`
-- `Data Center Groups`
-- `Security Tags`
+- `Passerelles Edge`
+- `Passerelles de fournisseur`
+- `Espaces IP`
+- `Groupes de centres de données`
+- `Balises de sécurité`
 
 </details>
 
@@ -135,31 +135,31 @@ Voici la vu globale dans cette capture :
 - Réseaux vApp
   
 
-### Content Hub
+### Hub de contenu
 
 Cette section vous permet d'administrer vos catalogues : créez, supprimez ou téléchargez des fichiers ISO, des modèles OVA, ou bien utilisez tout simplement les modèles préconfigurés disponibles dans le catalogue OVHcloud.
 
 ![Content Hub Overview](images/vcd_overview_content-hub.gif){.thumbnail}
 
-Cliquez pour déroulez le contenue de votre section "Content Hub" :
+Cliquez pour déroulez le contenu de votre section **"Hub de contenu"** :
 <details>
-<summary>Content Hub</summary>
+<summary>Hub de contenu</summary>
 
-- `Welcome to Content Hub`
-- `Content`
-- `Catalogs`
-- `Manage Ressources`
+- `Bienvenu dans le Hub de contenu`
+- `Contenu`
+- `Catalogues`
+- `Gérer des ressources : VMware Marketplace / Référentiel Helm Chart / Kubernetes Operator`
 </details>
 
-### Libraries
+### Bibliothèques
 
 ![Libraries Overview](images/VCD-libraries-overview.png){.thumbnail}
 
-Cliquez pour déroulez le contenue de votre section "Libraries" :
+Cliquez pour déroulez le contenu de votre section **"Bibliothèques"** :
 <details>
 <summary>Libraries</summary>
 
-- `Content Libraries`
+- `Bibliothèques de contenu`
 - `Services`
 </details>
 
@@ -175,42 +175,42 @@ Dans cette section, vous retrouvez tous les composants d'administration de votre
 Cliquez pour déroulez le contenue de votre section "Administration" :
 
 <details>
-<summary>Access Control</summary>
+<summary>Contrôle d'accès</summary>
 
-- `Users`
-- `Groups`
-- `Roles`
+- `Utilisateurs`
+- `Groupes`
+- `Rôles`
 
-<summary>Identity Providers</summary>
+<summary>Fournisseur d'identités</summary>
 
 - `SAML`
 - `OIDC`
 
-<summary>Certificates Management</summary>
+<summary>Gestion des certificats</summary>
 
-- `Certificates Library`
+- `Bibliothèque de certificats`
 
-<summary>Organizations :</summary>
-<summary>Settings :</summary>
+<summary>Organisations :</summary>
+<summary>Paramètres :</summary>
 
-- `General`
-- `Email`
-- `Guest Personalization`
-- `Metadata`
+- `Général`
+- `E-mail`
+- `Personnalisation invité`
+- `Métadonnées`
 - `Multisite`
-- `Policies`
+- `Stratégies`
 - `Quotas`
 
 </details>
 
 
-### Monitoring
+### Surveiller
 
 ![Monitoring Overview](images/vcd_overview_monitor.gif){.thumbnail}
 
 Dans cette section, vous pouvez accéder à l'historique complet de toutes les tâches et événements survenus dans votre organisation. Vous pouvez utiliser les filtres pour retrouver plus facilement les tâches/événements souhaités.
 
-### More
+### Plus
 
 ![More options Overview](images/vcd_overview_more.gif){.thumbnail}
 

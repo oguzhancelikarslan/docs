@@ -28,13 +28,13 @@ Une organisation peut regrouper un nombre variable d'utilisateurs et de groupes.
 
 Quant aux groupes, ils doivent être importés depuis le service d'annuaire. Au sein d'une organisation, les autorisations sont gérées en attribuant des droits et des rôles spécifiques aux utilisateurs et aux groupes.
 
-### Centres de données virtuel (vDC)
+### Centres de données virtuels (vDC)
 
 Un centre de données virtuel permet d'offrir des ressources de calcul (machines virtuelles / vApp / Règles d'affinités) à une organisation (votre vDC), créant ainsi un environnement managé par OVHcloud où les systèmes virtualisés peuvent être stockés, déployés et exploités.
 
 Il est important de noter qu'une organisation peut disposer de plusieurs centres de données virtuels (vDC) pour répondre à ses besoins spécifiques en matière de ressources informatiques (segmentation, isolation, sécurité etc..).
 
-### Réseaux de centre de données d'organisations
+### Réseaux de centre de données virtuels d'organisations
 
 Un réseau vDC est encapsulé dans un centre de données (virtuels) spécifique créé avec VMware Cloud Director (VCD), et il est accessible à toutes les vApps de cette organisation. Ce réseau permet aux différentes vApps d'une organisation de communiquer entre elles de manière transparente. Il peut être configuré afin de se connecter à un réseau externe ou maintenu isolé et interne à l'organisation.
 

@@ -13,7 +13,7 @@ updated: 2024-04-16
 >[!primary]
 > If you are unsure how to log in to your organization’s web portal, read [this guide](/pages/hosted_private_cloud/hosted_private_cloud_powered_by_vmware/vcd-logging) first.
 
-- a VMware Cloud Director account
+- A VMware Cloud Director account
 
 ## Instructions
 
@@ -41,7 +41,7 @@ The different sections available are the following:
 
 ### Datacentres
 
-![Datacenters Overview](images/vcd-datacenters-overview.png){.thumbnail}
+![Datacenters Overview](images/vcd_overview_datacenter.gif){.thumbnail}
 
 In this section, you will find all of your virtual datacentres (**vDC**) ordered in different datacentre locations, a brief overview of your resource usage, and the number of vApps/VMs currently running.
 
@@ -49,41 +49,41 @@ In this section, you will find all of your virtual datacentres (**vDC**) ordered
 
 In this section, get a comprehensive overview of all your vApps and virtual machines on your virtual datacentres (vcds): create, access and delete vApps or virtual machines with ease.
 
-![Applications Overview](images/vcd-applications-overview.png){.thumbnail}
+![Applications Overview](images/vcd_overview_application.gif){.thumbnail}
 
 ### Networking
 
-![Network Overview](images/vcd-networking-overview.png){.thumbnail}
+![Network Overview](images/vcd_overview_networking.gif){.thumbnail}
 
 In this section, you can find all the network components of your VCD environments: networks, Edge Gateways, Provider Gateways, IP address ranges, datacentre groups, and security tags.
 
 ### Content Hub
 
-![Content Hub Overview](images/vcd-content-overview.png){.thumbnail}
+![Content Hub Overview](images/vcd_overview_content-hub.gif){.thumbnail}
 
 In this section, you can manage your catalogs: create, delete or download ISO files, OVA templates, or simply use the preconfigured templates available in the OVHcloud catalog.
 
 ### Administration
 
-![Administration Overview](images/vcd-administration-overview.png){.thumbnail}
+![Administration Overview](images/vcd_overview_administration.gif){.thumbnail}
 
 In this section, you can manage users in your organization, create roles and groups, and configure an identification provider (OIDC/SAML). You can also set up email alerts and expiration policies for your applications.
 
 ### Monitoring
 
-![Monitoring Overview](images/vcd-monitoring-overview.png){.thumbnail}
+![Monitoring Overview](images/vcd_overview_monitor.gif){.thumbnail}
 
 In this section, you can access the complete history of all tasks and events that have occurred in your organization. You can filter to find the tasks/events you want more easily.
 
 ### More
 
-![More options Overview](images/vcd-more-overview.png){.thumbnail}
+![More options Overview](images/vcd_overview_more.gif){.thumbnail}
 
 In this section, access the essential plugins: Veeam for data protection to back up your infrastructure, and the Operations Manager for an exhaustive breakdown of your usage.
 
 ### Magnifier
 
-![Overview Magnifier](images/vcd-research-overview.png){.thumbnail}
+![Overview Magnifier](images/vcd_overview_loupe.gif){.thumbnail}
 
 Use this feature to search for components within your organization. The vertical dots give you the ability to log out, change your password, and manage your user preferences.
 

@@ -4,6 +4,21 @@ excerpt: "Discover the VCD user interface"
 updated: 2024-04-16
 ---
 
+<style>
+details>summary {
+	color:rgb(33, 153, 232) !important;
+	cursor: pointer;
+}
+details>summary::before {
+	content:'\25B6';
+	padding-right:1ch;
+}
+details[open]>summary::before {
+	content:'\25BC';
+}
+</style>
+
+
 ## Objective
 
 **This guide will walk you through the different sections of the VCD interface.**
@@ -39,59 +54,187 @@ The different sections available are the following:
 9. **Completed tasks**
 10. **Resources used**
 
-### Datacentres
+### Data Centers
+
+In this section, you will find all of your virtual datacentres (vDC) ordered in different datacentre locations, a brief overview of your resource usage, and the number of vApps/VMs currently running.</summary>
+
+<details>
+<summary> Click to unwind Data Centers section :</summary> 
+<summary>Compute :</summary>
+
+- `vApps`{.action}.
+- `Virtual Machines`{.action}.
+- `Affinity Rules`{.action}.
+
+<summary>Networking :</summary>
+
+- `Networks`{.action}.
+- `Edges`{.action}.
+
+<summary>Storage :</summary>
+
+- `Named disks`{.action}.
+- `Storage Policies`{.action}.
+
+<summary>Settings :</summary>
+
+- `General`{.action}.
+- `Metadata`{.action}.
+- `Sharing`{.action}.
+- `Kubernetes Policies`{.action}.
+
+<summary>
 
 ![Datacenters Overview](images/vcd_overview_datacenter.gif){.thumbnail}
 
-In this section, you will find all of your virtual datacentres (**vDC**) ordered in different datacentre locations, a brief overview of your resource usage, and the number of vApps/VMs currently running.
+</summary>
+</details>
 
 ### Applications
-
 In this section, get a comprehensive overview of all your vApps and virtual machines on your virtual datacentres (vcds): create, access and delete vApps or virtual machines with ease.
+
+<details>
+<summary> Click to unwind Application section:</summary>
+- `Virtual Applications`
+- `Virtual Machines`
+- `Container Applications`
+
+<summary>
 
 ![Applications Overview](images/vcd_overview_application.gif){.thumbnail}
 
+</summary>
+</details>
+
 ### Networking
+In this section, you can find all the network components of your VCD environments: networks, Edge Gateways, Provider Gateways, IP address ranges, datacentre groups, and security tags.
+
+<details>
+<summary> Click to unwind Networking section :</summary>
+
+Networking :
+- `Networks`
+- `Edge Gateways`
+- `Provider Gateways`
+- `IP Spaces`
+- `Data Center Groups`
+- `Security Tags`
+</summary>
+
+<summary>
 
 ![Network Overview](images/vcd_overview_networking.gif){.thumbnail}
 
-In this section, you can find all the network components of your VCD environments: networks, Edge Gateways, Provider Gateways, IP address ranges, datacentre groups, and security tags.
+</summary>
+</details>
 
 ### Content Hub
+In this section, you can manage your catalogs: create, delete or download ISO files, OVA templates, or simply use the preconfigured templates available in the OVHcloud catalog.
+
+<details>
+<summary> Click to unwind Content Hub section :</summary>
+
+<summary>Content</summary>
+
+- `Bibliothèques de contenu`
+- `Services`
+</summary>
+
+<summary>
 
 ![Content Hub Overview](images/vcd_overview_content-hub.gif){.thumbnail}
 
-In this section, you can manage your catalogs: create, delete or download ISO files, OVA templates, or simply use the preconfigured templates available in the OVHcloud catalog.
+</summary>
+</details>
 
 ### Administration
+In this section, you can manage users in your organization, create roles and groups, and configure an identification provider (OIDC/SAML). You can also set up email alerts and expiration policies for your applications.
+
+<details>
+<summary> Click to unwind Administration section :</summary>
+<summary>Access control :</summary>
+
+- `Users`
+- `Groups`
+- `Roles`
+
+<summary>Fournisseur d'identités</summary>
+
+- `SAML`
+- `OIDC`
+
+<summary>Gestion des certificats</summary>
+
+- `Certificate Management`
+
+<summary>Organisations :</summary>
+<summary>Paramètres :</summary>
+
+- `General`
+- `Email`
+- `Guest Personnalization`
+- `Metadata`
+- `Multisite`
+- `Policies`
+- `Quotas`
+
+<summary>
 
 ![Administration Overview](images/vcd_overview_administration.gif){.thumbnail}
 
-In this section, you can manage users in your organization, create roles and groups, and configure an identification provider (OIDC/SAML). You can also set up email alerts and expiration policies for your applications.
+</summary>
+</details>
 
 ### Monitoring
+In this section, you can access the complete history of all tasks and events that have occurred in your organization. You can filter to find the tasks/events you want more easily.
+
+<details>
+<summary> Click to unwind Monitoring section :</summary>
+
+<summary>
 
 ![Monitoring Overview](images/vcd_overview_monitor.gif){.thumbnail}
 
-In this section, you can access the complete history of all tasks and events that have occurred in your organization. You can filter to find the tasks/events you want more easily.
+</summary>
+</details>
 
 ### More
+In this section, access the essential plugins: Veeam for data protection to back up your infrastructure, and the Operations Manager for an exhaustive breakdown of your usage.
+<details>
+<summary> Click to unwind More section :</summary>
+
+<summary>
 
 ![More options Overview](images/vcd_overview_more.gif){.thumbnail}
 
-In this section, access the essential plugins: Veeam for data protection to back up your infrastructure, and the Operations Manager for an exhaustive breakdown of your usage.
+</summary>
+</details>
 
 ### Magnifier
+Use this feature to search for components within your organization. The vertical dots give you the ability to log out, change your password, and manage your user preferences.
+
+<details>
+<summary> Click to unwind Magnifier section :</summary>
+
+<summary>
 
 ![Overview Magnifier](images/vcd_overview_loupe.gif){.thumbnail}
 
-Use this feature to search for components within your organization. The vertical dots give you the ability to log out, change your password, and manage your user preferences.
+</summary>
+</details>
 
 ### Tasks Completed
+See here for all recent actions in your organization.
+
+<details>
+<summary> Click to unwind Tasks Completed section :</summary>
+
+<summary>
 
 ![Tasks Overview](images/vcd-recent-tasks-overview.png){.thumbnail}
 
-See here for all recent actions in your organization.
+</summary>
+</details>
 
 ## Go further
 

@@ -23,10 +23,10 @@ La version utilisé pour l'ensemble de nos produit Vcloud Director (VCD) est la 
 
 ## En pratique
 
-VMware vCloud Director (vCD) est un logiciel de déploiement, d’automatisation et de gestion de ressources d’infrastructure virtuelle dans des environnements cloud multi-tenants.
+VMware vCloud Director (VCD) est une plateforme de gestion de cloud computing. Celle-ci permet la création, la gestion et le déploiement de ressources informatiques virtualisées à grande échelle. VCD offre une infrastructure agile et évolutive. Grâce à son interface utilisateur conviviale et à ses fonctionnalités avancées telles que la gestion des ressources, du réseau logiciel, et la sécurité renforcée, vCloud Director simplifie la gestion des environnements cloud complexes.
 
 [comment]: <> (Réécriture de l'introduction "En pratique" pour accès plus le propos sur le service que fournis OVH afin de se démarquer de VMware)
-VMware vCloud Director (VCD) par OVH Cloud permet d'avoir un service reuni au sein d'une même organisation managé.
+VMware vCloud Director (VCD) permet d'avoir un service reuni au sein d'une même organisation managé par OVHcloud.
 
 >[!primary]
 > Une fois connecté à votre interface web, vous serez accueillis par un tableau de bord affichant vos **vDC**, ainsi qu'un résumé détaillé de votre utilisation des ressources (10). En haut de l'écran, vous trouverez également une barre de navigation regroupant les différentes options de paramétrage disponibles pour vCloud Director (VCD).
@@ -52,7 +52,7 @@ VMware vCloud Director (VCD) par OVH Cloud permet d'avoir un service reuni au se
 
 ![Datacenters Overview](images/vcd_overview_datacenter.gif){.thumbnail}
 
-Retrouvez dans cette sections tous vos centre de données virtuels (**vDC**) commandés avec différents emplacements de datacenters, un bref suivi de votre consommation de ressources et du nombre de vApps/VM en cours d’exécution.
+Retrouvez dans cette section tous vos centres de données virtuels (**vDC**) commandés avec différents emplacements de datacenters, un bref suivi de votre consommation de ressources et du nombre de vApps/VM en cours d’exécution.
 Dans cette section vous retrouvez un bandeau sur votre gauche, le même que quand vous cliquez sur une de vos : `Applications virtuelles | Machines virtuelles | Applications de conteneur `{.action}. depuis la section **"Application"** :
 
 <details>
@@ -86,8 +86,8 @@ Dans cette section vous retrouvez un bandeau sur votre gauche, le même que quan
 
 Cette section vous permet de profiter d'une vision d'ensemble complète de tous vos vApps et machines virtuelles sur vos centres de données virtuels (vcd) : créez, accédez et supprimez des vApps ou des machines virtuelles en toute simplicité.
 
-L'utilisation des vApps est une des fonctionnalitées unique de Vcloud Director (VCD). Il permet de créer de grouper un ensemble de machines virtuelles, de conteneurs au sein de la même Virtual Application (vApp). Mais aussi aller granulairement créer des rêgles d'affinités/anti-affinités au sein de ces vApp (réseau, firewall, templating etc).
-Nous retrouvons comme réglages pour ces vApp, les memes fonctionnalitées de Vsphere/NSX pour la partie réseau et le stockage que l'on peut appliquer à cette console Web centralisée (un orchestrateur).
+L'utilisation des vApps est une des fonctionnalités unique de Vcloud Director (VCD). Il permet de créer de grouper un ensemble de machines virtuelles, de conteneurs au sein de la même Virtual Application (vApp). Mais aussi aller granulairement créer des rêgles d'affinités/anti-affinités au sein de ces vApp (réseau, firewall, templating etc).
+Nous retrouvons comme réglages pour ces vApp, les memes fonctionnalités de Vsphere/NSX pour la partie réseau et le stockage que l'on peut appliquer à cette console Web centralisée (un orchestrateur).
 
 Il est par exemple possible de copier une vApp d'un Data Center à un autre et aussi pour une migration d'application d'un site à un autre.
 
@@ -95,7 +95,7 @@ Voici la vu globale de la section "Application" dans cette capture :
 
 ![vApp Overview](images/vcd-Vapp-view.png){.thumbnail}
 
-Voici les 3 éléments principaux de la section Application, vous pouvez aussi voir que quand vous cliquez sur l'une de vos vApp vous serez redirigé dans la section Data Center :
+Voici les 3 éléments principaux de la section Application, vous pouvez aussi voir que quand vous cliquez sur l'une de vos vApp, Vous serez redirigé dans la section Data Center :
 <details>
 <summary>Application</summary>
 
@@ -111,7 +111,7 @@ Voici les 3 éléments principaux de la section Application, vous pouvez aussi v
 La mise en réseau de Cloud Director permet au fournisseur et au client de l'organisation de créer et de consommer des ressources de mise en réseau à partir d'un environnement vSphere ou NSX. 
 Par conséquent, les clients peuvent créer des segments réseaux et configurer des services finement avec ou sans DHCP, effectuer du pare-feu NAT mais aussi utiliser les intégrations de load-balancing par exemple.
 
-Vous pouvez voir après cette capture que les fonctionnalitées les plus avancées proposées par VMware depuis toutes ces années sont présente dans Vcloud Director (VCD) au sein d'une même console central d'administration.
+Vous pouvez voir après cette capture que les fonctionnalités les plus avancées proposées par VMware depuis toutes ces années sont présente dans Vcloud Director (VCD) au sein d'une même console central d'administration.
 
 Voici la vu globale dans cette capture :
 
@@ -155,7 +155,7 @@ Cliquez pour déroulez le contenu de votre section **"Hub de contenu"** :
 
 ![Libraries Overview](images/VCD-libraries-overview.png){.thumbnail}
 
-Cliquez pour déroulez le contenu de votre section **"Bibliothèques"** :
+Cliquez pour dérouler le contenu de votre section **Bibliothèques** :
 <details>
 <summary>Libraries</summary>
 

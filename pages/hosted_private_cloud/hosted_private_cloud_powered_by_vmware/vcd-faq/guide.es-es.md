@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - FAQ (EN)"
 excerpt: "Frequently asked questions on VCD"
-updated: 2024-04-16
+updated: 2024-05-14
 ---
 
 ## FAQ

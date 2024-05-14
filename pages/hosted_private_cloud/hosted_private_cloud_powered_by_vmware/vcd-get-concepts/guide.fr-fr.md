@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Les concepts fondamentaux de VCD"
 excerpt: "Decouvrez les concepts fondamentaux de VMware Cloud Director"
-updated: 2024-04-18
+updated: 2024-05-14
 ---
 
 ## Objectif
@@ -12,7 +12,7 @@ updated: 2024-04-18
 
 Dans cette section, nous allons établir les bases essentielles de VMware Cloud Director (VCD).
 
-En définissant ces principes de manière claire et concise, nous allons fournir les bases nécessaires pour une utilisation efficace et réussie de VMware Cloud Director. Que ce soit pour les administrateurs cherchant à déployer des infrastructures complexes ou pour les utilisateurs souhaitant accéder aux ressources rapidement. Cette exploration des concepts de base de VCD constitue un point de départ essentiel.
+En définissant ces principes de manière claire et concise, nous allons fournir les bases nécessaires pour une utilisation efficace et réussie de VMware Cloud Director. Que ce soit pour les administrateurs cherchant à déployer des infrastructures complexes ou pour les utilisateurs souhaitant accéder aux ressources rapidement, cette exploration des concepts de base de VCD constitue un point de départ essentiel.
 
 ### Organisations
 
@@ -24,29 +24,29 @@ Les administrateurs système sont responsables de la création et du provisionne
 
 ### Utilisateurs et groupes
 
-Une organisation peut regrouper un nombre variable d'utilisateurs et de groupes. Les utilisateurs peuvent être créés directement par l'administrateur de l'organisation ou importés depuis un service d'annuaire (Active directory par exemple).
+Une organisation peut regrouper un nombre variable d'utilisateurs et de groupes. Les utilisateurs peuvent être créés directement par l'administrateur de l'organisation ou importés depuis un service d'annuaire (Active Directory par exemple).
 
 Quant aux groupes, ils doivent être importés depuis le service d'annuaire. Au sein d'une organisation, les autorisations sont gérées en attribuant des droits et des rôles spécifiques aux utilisateurs et aux groupes.
 
 ### Centres de données virtuels (vDC)
 
-Un centre de données virtuel permet d'offrir des ressources de calcul (machines virtuelles / vApp / Règles d'affinités) à une organisation (votre vDC), créant ainsi un environnement managé par OVHcloud où les systèmes virtualisés peuvent être stockés, déployés et exploités.
+Un centre de données virtuel permet d'offrir des ressources de calcul (machines virtuelles / vApp / règles d'affinités) à une organisation (votre vDC), créant ainsi un environnement managé par OVHcloud où les systèmes virtualisés peuvent être stockés, déployés et exploités.
 
 Il est important de noter qu'une organisation peut disposer de plusieurs centres de données virtuels (vDC) pour répondre à ses besoins spécifiques en matière de ressources informatiques (segmentation, isolation, sécurité etc..).
 
-### Réseaux de centre de données virtuels d'organisations
+### Réseaux de centres de données virtuels d'organisations
 
-Un réseau vDC est encapsulé dans un centre de données (virtuels) spécifique créé avec VMware Cloud Director (VCD), et il est accessible à toutes les vApps de cette organisation. Ce réseau permet aux différentes vApps d'une organisation de communiquer entre elles de manière transparente. Il peut être configuré afin de se connecter à un réseau externe ou maintenu isolé et interne à l'organisation.
+Un réseau vDC est encapsulé dans un centre de données (virtuel) spécifique créé avec VMware Cloud Director (VCD), et il est accessible à toutes les vApps de cette organisation. Ce réseau permet aux différentes vApps d'une organisation de communiquer entre elles de manière transparente. Il peut être configuré afin de se connecter à un réseau externe ou maintenu isolé et interne à l'organisation.
 
-Seuls les administrateurs système ont le privilège de créer de tels réseaux, mais les administrateurs d'organisation sont en mesure de gérer les configurations des réseaux de centre de données virtuel d'organisation, y compris les services réseau qu'ils offrent.
+Seuls les administrateurs système ont le privilège de créer de tels réseaux, mais les administrateurs d'organisation sont en mesure de gérer les configurations des réseaux de centres de données virtuels d'organisation, y compris les services réseau qu'ils offrent.
 
 ### Réseaux vApp
 
 Un réseau vApp est inclus dans une vApp et facilite la communication entre les différentes machines virtuelles de cette vApp.
 
-Il est possible de connecter un réseau vApp à un réseau de centre de données virtuel d'organisation, ce qui permet à la vApp de communiquer avec d'autres vApps au sein de l'organisation.
+Il est possible de connecter un réseau vApp à un réseau de centres de données virtuels d'organisation, ce qui permet à la vApp de communiquer avec d'autres vApps au sein de l'organisation.
 
-De plus, si le réseau de centre de données virtuel d'organisation est connecté à un réseau externe, cela offre la possibilité à la vApp de communiquer également en dehors de l'organisation.
+De plus, si le réseau de centres de données virtuels d'organisation est connecté à un réseau externe, cela offre la possibilité à la vApp de communiquer également en dehors de l'organisation.
 
 ### Catalogue
 
